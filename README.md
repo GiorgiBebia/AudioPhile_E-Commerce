@@ -1,6 +1,6 @@
 # React + Vite App > AudioPhile E-Commerce
 
-## Tailwind
+## Tailwind / Responsive
 
 ## React Router
 
