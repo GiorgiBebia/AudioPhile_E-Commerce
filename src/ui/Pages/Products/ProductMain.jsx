@@ -79,19 +79,19 @@ export function ProductMain({ newItem }) {
         src={newItem.mobileImg}
         alt={newItem.name}
       />
-      <div className="w-[445.5px] mobile:w-[327px] h-[407px]  flex flex-col justify-between">
+      <div className="w-[445.5px] mobile:w-[327px] h-[407px] flex flex-col justify-between mt-[77px] tablet:mt-[45px] mobile:mt-[32px]">
         {newItem.isNew && (
-          <span className="tracking-[10px] font-manrope text-[14px] text-[#D87D4A]">
+          <span className="tracking-[10px] font-manrope text-[14px] text-[#D87D4A] mobile:mb-[24px]">
             NEW PRODUCT
           </span>
         )}
         <span className="font-manrope text-[40px] font-bold">
           {newItem.name}
         </span>
-        <p className="font-manrope text-[15px] mobile:w-[327px] mobile:h-[125px]">
+        <p className="font-manrope text-[15px] mobile:w-[327px] mobile:h-[125px] mobile:my-[24px]">
           {newItem.about}
         </p>
-        <span className="font-manrope font-bold text-[18px]">
+        <span className="font-manrope font-bold text-[18px] mobile:mb-[31px]">
           {newItem.price} ₾
         </span>
         <div className="flex gap-4 mobile:w-[327px]">
