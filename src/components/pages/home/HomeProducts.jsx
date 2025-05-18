@@ -5,11 +5,11 @@ export function HomeProducts() {
   return (
     <div className="max-w-[1110px] tablet:max-w-[689px] w-full flex flex-col gap-[48px] mt-[168px] mobile:mt-[120px] mx-auto">
       <div className="bg-[url('/img/zx9Speaker.png')] tablet:bg-[url('/img/tabletZX9Speaker.png')] mobile:bg-[url('/img/mobileZX9Speaker.png')] max-w-[1110px] tablet:max-w-[768px] mobile:max-w-[327px] w-full h-[560px] tablet:h-[720px] mobile:h-[600px] mobile:mx-auto">
-        <div className="w-[349px] mobile:w-[280px] h-[303px] mobile:h-[251px] mt-[133px] tablet:mt-[353px] mobile:mt-[294px] ml-[666px] tablet:ml-[171px] mobile:ml-[23px] flex flex-col justify-between tablet:items-center">
+        <div className="max-w-[349px] mobile:max-w-[280px] h-[303px] mobile:h-[251px] mt-[133px] tablet:mt-[353px] mobile:mt-[294px] ml-[666px] tablet:ml-[171px] mobile:ml-[23px] flex flex-col justify-between tablet:items-center">
           <h2 className="font-manrope text-[56px] mobile:text-[36px] tracking-[2px] mobile:tracking-[1.29px] text-white flex flex-col justify-between leading-[58px] tablet:text-center mobile:w-[230px]">
             ZX9 SPEAKER
           </h2>
-          <p className="font-manrope text-[15px] w-[349px] mobile:w-[280px] h-[75px] text-gray-200 tablet:text-center">
+          <p className="font-manrope text-[15px] max-w-[349px] mobile:max-w-[280px] h-[75px] text-gray-200 tablet:text-center">
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
@@ -51,7 +51,7 @@ export function HomeProducts() {
           alt="YX1 Earphones"
         />
 
-        <div className="w-[540px] tablet:w-[339px] mobile:w-[327px] h-[320px] mobile:h-[200px] bg-[#979797] tablet:bg-[#F1F1F1] rounded-[8px]">
+        <div className="max-w-[540px] tablet:max-w-[339px] mobile:max-w-[327px] h-[320px] mobile:h-[200px] bg-[#979797] tablet:bg-[#F1F1F1] rounded-[8px]">
           <div className="pt-[101px] mobile:pt-[41px] pl-[95px] tablet:pl-[41px] mobile:pl-[24px] tablet:w-[290px] tablet:h-[118px]">
             <h2 className="font-manrope text-[28px] font-bold tracking-[2px]">
               YX1 EARPHONES

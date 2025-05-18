@@ -9,7 +9,7 @@ export function Footer() {
     <div className="mt-[200px] tablet:mt-[96px] tablet:max-w-[768px] mobile:max-w-[375px] w-full h-[365px] tablet:h-[400px] mobile:h-[654px] bg-black ">
       <div className="max-w-[1110px] tablet:max-w-[689px] w-full flex flex-col mx-auto">
         <div className="w-[101px] h-1 bg-[#D87D4A] mobile:mx-auto"></div>
-        <div className="w-[1110px] tablet:w-[429px] mobile:w-[143px] flex justify-between mt-[71px] tablet:mt-[56px] mobile:mt-[48px] tablet:h-[82px] mobile:h-[221px] tablet:flex-col mobile:items-center mobile:mx-auto mobile:justify-normal mobile:gap-[48px]">
+        <div className="max-w-[1110px] tablet:w-[429px] mobile:w-[143px] flex justify-between mt-[71px] tablet:mt-[56px] mobile:mt-[48px] tablet:h-[82px] mobile:h-[221px] tablet:flex-col mobile:items-center mobile:mx-auto mobile:justify-normal mobile:gap-[48px]">
           <Link to="/" onClick={scrollToTop}>
             <img className="w-[143px] h-[25px]" src="img/logo.png" alt="Logo" />
           </Link>
@@ -44,13 +44,13 @@ export function Footer() {
             </Link>
           </div>
         </div>
-        <p className="w-[540px] tablet:w-[687px] mobile:w-[327px] h-[100px] tablet:h-[75px] mobile:h-[150px] font-manrope text-[15px] text-gray-500 mt-[36px] tablet:mt-[32px] mobile:mt-[48px] mobile:mx-auto mobile:text-center">
+        <p className="max-w-[540px] tablet:max-w-[687px] mobile:max-w-[327px] h-[100px] tablet:h-[75px] mobile:h-[150px] font-manrope text-[15px] text-gray-500 mt-[36px] tablet:mt-[32px] mobile:mt-[48px] mobile:mx-auto mobile:text-center">
           Audiophile is an all in one stop to fulfill your audio needs. We are a
           small team of music lovers and sound specialists who are devoted to
           helping you get the most out of personal audio. Come and visit our
           demo facility - we are open 7 days a week.
         </p>
-        <div className="w-[1110px] tablet:w-[689px] mobile:w-[258px] flex justify-between mt-[56px] tablet:mt-[80px] mobile:mt-[48px] mobile:mx-auto mobile:flex-col mobile:text-center mobile:items-center mobile:gap-[20px]">
+        <div className="max-w-[1110px] tablet:max-w-[689px] mobile:max-w-[258px] flex justify-between mt-[56px] tablet:mt-[80px] mobile:mt-[48px] mobile:mx-auto mobile:flex-col mobile:text-center mobile:items-center mobile:gap-[20px]">
           <span className="font-manrope text-[15px] text-gray-500">
             Copyright 2024. All Rights Reserved. Giorgi Bebia
           </span>
